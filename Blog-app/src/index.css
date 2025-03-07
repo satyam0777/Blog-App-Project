@@ -73,3 +73,6 @@ body{
   font-family: montserrat ,sans-serif;
   
 }
+.animatedButton{
+  animation-duration:10000ms ;
+}
