@@ -22,7 +22,7 @@ const Navbar = () => {
                     {open ? "X" : <img src="../public/icons-menu.png" className="w-13 h-13" alt=''/>}
                 </div>
                 {/* MOBILE LINK LIST */}
-                <div className={`w-full h-screen flex flex-col items-center justify-center gap-8 font-medium text-lg absolute top-16 transition-all ease-in-out
+                <div className={`w-full h-screen bg-[#e6e6ff] flex flex-col items-center justify-center gap-8 font-medium text-lg absolute top-16 transition-all ease-in-out
                      ${open ? "-right-0" : "-right-[100%]"}`}>
                    <Link to="/">Home</Link>
                 < Link to ="/">Treanding</Link>
