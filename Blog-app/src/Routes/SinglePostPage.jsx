@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import PostMenuActions from "../components/PostMenuActions";
 import Search from "../components/Search";
 import Comments from "../components/Comments";
+
 const SinglePostPage = () => {
   return (
     <div className='flex flex-col gap-8'>
@@ -141,6 +142,8 @@ const SinglePostPage = () => {
                 h="48"
               />
               <Link className="text-blue-900">Satyam Prajapati</Link>
+              
+
               </div>
               <p className="text-sm text-gray-600">He is a Computer Science student
                  passionate about Full-Stack Development, DevOps,
